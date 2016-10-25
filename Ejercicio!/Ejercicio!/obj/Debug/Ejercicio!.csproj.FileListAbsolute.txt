@@ -11,3 +11,16 @@ C:\Users\AZAINOSM\Desktop\DAI\Ejercicio!\Ejercicio!\bin\Debug\Ejercicio!.exe
 C:\Users\AZAINOSM\Desktop\DAI\Ejercicio!\Ejercicio!\bin\Debug\Ejercicio!.pdb
 C:\Users\AZAINOSM\Desktop\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.exe
 C:\Users\AZAINOSM\Desktop\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.pdb
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\bin\Debug\Ejercicio!.exe.config
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.exe
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.pdb
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\bin\Debug\Ejercicio!.exe
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\bin\Debug\Ejercicio!.pdb
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.csprojResolveAssemblyReference.cache
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\MainWindow.baml
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\MainWindow.g.cs
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\App.g.cs
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!_MarkupCompile.cache
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.g.resources
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio_.Properties.Resources.resources
+C:\Users\sdist\Desktop\Prueba\DAI\Ejercicio!\Ejercicio!\obj\Debug\Ejercicio!.csproj.GenerateResource.Cache

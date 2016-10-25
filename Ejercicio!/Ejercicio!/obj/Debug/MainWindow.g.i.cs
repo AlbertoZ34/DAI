@@ -177,6 +177,14 @@ namespace Ejercicio_ {
             #line hidden
             return;
             case 9:
+            
+            #line 19 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 10:
             this.btAlta = ((System.Windows.Controls.Button)(target));
             
             #line 20 "..\..\MainWindow.xaml"
@@ -185,7 +193,7 @@ namespace Ejercicio_ {
             #line default
             #line hidden
             return;
-            case 10:
+            case 11:
             this.cbAlumnos = ((System.Windows.Controls.ComboBox)(target));
             return;
             }
