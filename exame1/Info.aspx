@@ -7,9 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body>
+<body style="height: 153px">
     <form id="form1" runat="server">
-    <div>
+    <div style="height: 142px">
+    
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Regresar" />
     
     </div>
     </form>

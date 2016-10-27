@@ -13,7 +13,7 @@ public partial class Indexd : System.Web.UI.Page
         OdbcConnection conexion = null;
         try
         {
-            String conectar = "Driver= {SQL Server Native Client 11.0}; Server=CC201-13; Uid=sa; Pwd=sqladmin; Database=mensajeria";
+            String conectar = "Driver= {SQL Server Native Client 11.0}; Server=112SALAS13; Uid=sa; Pwd=sqladmin; Database=mensajeria";
             conexion = new OdbcConnection(conectar);
             conexion.Open();
         }

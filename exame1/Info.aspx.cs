@@ -13,7 +13,7 @@ public partial class Info : System.Web.UI.Page
         OdbcConnection conexion = null;
         try
         {
-            String conectar = "Driver= {SQL Server Native Client 11.0}; Server=112SALAS25; Uid=sa; Pwd=sqladmin; Database=Ventas";
+            String conectar = "Driver= {SQL Server Native Client 11.0}; Server=112SALAS13; Uid=sa; Pwd=sqladmin; Database=Ventas";
             conexion = new OdbcConnection(conectar);
             conexion.Open();
         }
@@ -31,7 +31,7 @@ public partial class Info : System.Web.UI.Page
         {
             OdbcConnection conexion = abrirConexion();
             String nombreV = Session["vendedor"].ToString();
-            String query = "Select sueldoBase from vendedor where nombreVendedor= '" + nombreV + "'";
+            String query = "Select SueldoBase from Vendedor where Vendeor= '" + nombreV + "'";
             OdbcCommand cmm = new OdbcCommand(query, conexion);
             OdbcDataReader lec = cmm.ExecuteReader();
             int sB = 0;
@@ -41,7 +41,7 @@ public partial class Info : System.Web.UI.Page
                 
             }
             
-            String query2 = "Select totVenta from vendedor where nombreVendedor = '" + nombreV + "'";
+            String query2 = "Select TotalVenta from Vendedor where Vendeor = '" + nombreV + "'";
             OdbcCommand cmm2 = new OdbcCommand(query2, conexion);
             OdbcDataReader lec2 = cmm2.ExecuteReader();
             int venta= 0;
@@ -78,5 +78,9 @@ public partial class Info : System.Web.UI.Page
         }
         else
             Response.Write("no existe vendedor");
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Index.aspx");
     }
 }
