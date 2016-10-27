@@ -78,6 +78,7 @@ public partial class Info : System.Web.UI.Page
         }
         else
             Response.Write("no existe vendedor");
+        
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
