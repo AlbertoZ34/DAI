@@ -53,8 +53,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Modificar.xaml.cs">
-      <DependentUpon>Modificar.xaml</DependentUpon>
+    <Compile Include="Modi.xaml.cs">
+      <DependentUpon>Modi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte.xaml.cs">
+      <DependentUpon>Reporte.xaml</DependentUpon>
     </Compile>
     <Compile Include="_Ejercicio_DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -74,7 +77,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Modificar.xaml">
+    <Page Include="Modi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reporte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

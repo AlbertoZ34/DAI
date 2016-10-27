@@ -1,0 +1,1 @@
+update Aspirante1 set grado='1ero' ,correo='cabecita' where nombre Like 'Carlos'

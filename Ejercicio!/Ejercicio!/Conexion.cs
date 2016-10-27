@@ -17,7 +17,9 @@ namespace Ejercicio_
 
         public static SqlConnection agregaConexion() {
             SqlConnection cnn;
-            String query = "Data Source=112SALAS05;Initial Catalog=Ejercicio!;Persist Security Info=True;User ID=sa;Password=sqladmin";
+            //nombre de la maquina
+            String maquina = "112SALAS25";
+            String query = "Data Source="+maquina+";Initial Catalog=Ejercicio!;Persist Security Info=True;User ID=sa;Password=sqladmin";
             cnn = new SqlConnection(query);
             cnn.Open();
             //MessageBox.Show("Conexión exitosa");
@@ -25,7 +27,7 @@ namespace Ejercicio_
         }
 
 
-
+//_______________________________________________________________________________________________________________________________________
 
 
 
@@ -52,9 +54,9 @@ namespace Ejercicio_
         }
 
 
+//____________________________________________________________________________________________________________________________
 
-
-        internal void llenarComboAlumnos(ComboBox cbAlumnos)
+        public void llenarComboAlumnos(ComboBox cbAlumnos)
         {
             try
             {
@@ -75,5 +77,11 @@ namespace Ejercicio_
                 MessageBox.Show("Llenado incorrecto: \n" + e.Message);
             }
         }
+
+//______________________________________________________________________________________________________________________________
+
+
+
+
     }
 }

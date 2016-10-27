@@ -16,10 +16,13 @@
         <TextBox x:Name="tbGrado" HorizontalAlignment="Left" Height="23" Margin="120,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="cbInges" HorizontalAlignment="Left" Margin="101,209,0,0" VerticalAlignment="Top" Width="120" />
         <Button x:Name="btBaja" Content="Baja" HorizontalAlignment="Left" Margin="331,209,0,0" VerticalAlignment="Top" Width="75" Click="btBaja_Click"/>
-        <Button Content="Modificar" HorizontalAlignment="Left" Margin="331,254,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="btMod" Content="Modificar" HorizontalAlignment="Left" Margin="331,254,0,0" VerticalAlignment="Top" Width="75" Click="btMod_Click"/>
         <Button x:Name="btAlta" Content="Alta" HorizontalAlignment="Left" Margin="239,209,0,0" VerticalAlignment="Top" Width="75" Click="btAlta_Click"/>
         <ComboBox x:Name="cbAlumnos" HorizontalAlignment="Left" Margin="346,72,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Alumnos:" HorizontalAlignment="Left" Margin="363,38,0,0" VerticalAlignment="Top" Height="25" Width="64"/>
+        <Label Content="@gmail.com" HorizontalAlignment="Left" Margin="238,144,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btBorrar" Content="Borrar" HorizontalAlignment="Left" Margin="238,254,0,0" VerticalAlignment="Top" Width="75" Click="btBorrar_Click"/>
+        <Button x:Name="btReporte" Content="Reporte" HorizontalAlignment="Left" Margin="39,254,0,0" VerticalAlignment="Top" Width="182" Click="btReporte_Click"/>
 
     </Grid>
 </Window>

@@ -111,9 +111,30 @@ namespace Ejercicio_
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
 
+
+        private void btBorrar_Click(object sender, RoutedEventArgs e)
+        {
+            tbCorreo.Text = "";
+            tbNombre.Text = "";
+            tbGrado.Text = "";
+            tbSexo.Text = "";
+           // dpFechaN.;
+        }
+
+        private void btMod_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Modi mod = new Modi();
+            mod.Show();
+
+        }
+
+        private void btReporte_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            Reporte rep = new Reporte();
+            rep.Show();
         }
 
         
